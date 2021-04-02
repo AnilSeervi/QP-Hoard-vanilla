@@ -1,0 +1,26 @@
+* {
+  font-family: "Work Sans", sans-serif;
+}
+
+.home-container {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 85vh;
+}
+@media (max-width: 700px) {
+  .home-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+span[data-target="nav-demo"] {
+  cursor: pointer;
+}
+.brand-logo {
+  white-space: nowrap;
+}
+.brand-logo span {
+  font-size: 0.7em;
+}
